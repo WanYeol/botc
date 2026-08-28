@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="35%" cy="28%" r="80%">
+      <stop offset="0%" stop-color="#c4661b"/>
+      <stop offset="100%" stop-color="#101924"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="72" fill="url(#bg)"/>
+  <circle cx="256" cy="238" r="178" fill="none" stroke="#ffd59f" stroke-width="14" opacity="0.95"/>
+  <circle cx="256" cy="238" r="154" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"/>
+  <g filter="url(#shadow)">
+    <rect x="132" y="354" width="248" height="58" rx="29" fill="#1e2e47"/>
+    <text x="256" y="392" text-anchor="middle" font-size="30" font-weight="700" fill="#fff8f1" letter-spacing="2">GOOD</text>
+  </g>
+  <text x="256" y="74" text-anchor="middle" font-size="22" font-weight="700" fill="#ffd59f" letter-spacing="4">BOTC CUSTOM</text>
+  <text x="256" y="180" text-anchor="middle" font-size="46" font-weight="800" fill="#fff8f1" letter-spacing="1">독살범</text>
+  <text x="256" y="452" text-anchor="middle" font-size="20" font-weight="600" fill="#ffffff" fill-opacity="0.78">하수인 / Poisoner</text>
+</svg>
